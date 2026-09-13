@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoesmaryosep</title>
+
+    <!--External CSS-->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!--Internal CSS-->
+    <style>
+        .internal-demo {
+            background-color: #fdf3e0;
+            border-left: 4px solid #5b2a86;
+            padding: 16px;
+            margin: 20px 32px;
+            border-radius: 6px;
+            color: #333;
+        }
+        .internal-demo strong {
+            color: #5b2a86;
+        }
+    </style>
+</head>
+<body>
+    <header class="top-header">
+        <div class="brand">
+            <span class="brand-mark">SM</span>
+            <h1>Shoesmaryosep</h1>
+        </div>
+        <nav class="navbar">
+            <ul class="nav-list">
+                <li><a href="#home">Home</a></li>
+                <li class="dropdown">
+                    <a href="#collections">Collections</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#running">Running</a></li>
+                        <li><a href="#casual">Casual</a></li>
+                        <li><a href="#basketball">Basketball</a></li>
+                    </ul>
+                </li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-text">
+                <strong><p class="eyebrow">Premium Footwear Presentation</p></strong>
+                <h2>Step Into Comfort and <span>Style</span></h2>
+                <p>Discover our latest collection featuring bold colors, modern design, and all-day comfort.</p>
+                <a href="#collections" class="btn">View Collection</a>
+            </div>
+            <div class="hero-image">
+                <img src="media/shoes.png" alt="Pink sneakers" class="right-image">
+            </div>
+        </section>
+
+        <!-- Internal CSS Demo -->
+        <div class="internal-demo">
+            <strong>Internal CSS Demo:</strong>
+            <p>This box is styled using <strong>Internal CSS</strong> in the &nbsp; &lt;style&gt; block, while the rest of the page uses the external stylesheet.</p>
+        </div>
+
+        <!-- Collection / Highlights + Size Guide -->
+        <section class="collection">
+            <h2 class="section-title">Product Details</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <h3>Product Highlights</h3>
+                    <ul style="text-align:left;">
+                        <li>Lightweight upper material</li>
+                        <li>Breathable design</li>
+                        <li>Cushioned sole support</li>
+                        <li>Available in multiple colors</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>Size Guide</h3>
+                    <table>
+                        <thead>
+                            <tr><th>Size</th><th>Length (cm)</th><th>Fit</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>7</td><td>25.0</td><td>Snug</td></tr>
+                            <tr><td>8</td><td>26.0</td><td>Regular</td></tr>
+                            <tr><td>9</td><td>27.0</td><td>Roomy</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features -->
+        <section class="features" id="features">
+            <h2 class="section-title">Why Choose Us</h2>
+            <div class="feature-grid">
+                <div class="feature">
+                    <h3>Comfort</h3>
+                    <p>Cushioned soles designed for all-day wear.</p>
+                </div>
+                <div class="feature">
+                    <h3>Durability</h3>
+                    <p>Built with materials that last through daily use.</p>
+                </div>
+                <div class="feature">
+                    <h3>Style</h3>
+                    <p>Modern designs that pair with any casual outfit.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Image Gallery -->
+        <section class="gallery" id="gallery">
+            <h2 class="section-title">Image Gallery</h2>
+            <div class="gallery-grid">
+                <img src="media/basketball.png" alt="Basketball shoes">
+                <img src="media/casual.png" alt="Casual shoes">
+                <img src="media/runningshoes.png" alt="Running shoes">
+            </div>
+        </section>
+
+        <!-- Inline CSS Example -->
+        <div class="card" style="margin: 0 32px 40px;">
+            <h3>Inline CSS Example</h3>
+            <p style="color: #d94141;">This sentence uses inline CSS to demonstrate direct styling inside the HTML element.</p>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p> 2026 Shoesmaryosep Shoe Collection</p>
+    </footer>
+</body>
+</html>
